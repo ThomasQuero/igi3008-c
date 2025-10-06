@@ -5,6 +5,8 @@
 double sqrt(double arg);
 
 int isprime(int p){
+    if(p <= 2) return 1;
+    if(p % 2 == 0) return 0;
     int i = 2;
     while(i < p){
         if(i % 2 == 0 || i > (int)sqrt(p) + 1){
