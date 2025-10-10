@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
     tab = malloc(size * sizeof(int));
 
     for (int i = 0; i < size; i++){
-        tab[i] = rand() % maxrandval;
+        tab[i] = rand() % maxrandval;lis
         // printf("%d\n", tab[i]);
     }
 
